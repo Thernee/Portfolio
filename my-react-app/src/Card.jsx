@@ -4,7 +4,7 @@ export default function Card() {
     <div className="card">
       <img className='card-image' src={profilePic} alt="profile picture"></img>
       <h2 className='card-title'>Sani Abubakar Adam</h2>
-      <p>Fullstack Software Developer. Familiar with NodeJs, NestJs, Flask and React</p>
+      <p className='card-text'>Fullstack Software Developer. Familiar with NodeJs, NestJs, Flask and React</p>
     </div>
   );
 }
