@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import FirstCard from './First-card'
 import './App.css'
 
 function App() {
 
   return (
     <>
-
+      <FirstCard />
     </>
   )
 }
